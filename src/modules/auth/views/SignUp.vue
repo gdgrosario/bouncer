@@ -1,11 +1,11 @@
 <template>
-  <Test />
+  <Section />
 </template>
 
 <script>
-import Test from "../components/SignUp/Test.vue";
+import Section from "../components/Section";
 
 export default {
-  components: { Test },
+  components: { Section },
 };
 </script>
