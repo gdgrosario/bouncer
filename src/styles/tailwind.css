@@ -1,0 +1,21 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.input {
+  @apply text-sm text-gray-600 block rounded-md px-2 py-2 my-5 bg-gray-100 w-full outline-none;
+}
+
+.btn {
+  @apply rounded-md px-4 py-2;
+}
+
+.btn-lg {
+  @apply rounded-md px-10 py-2;
+}
+
+.btn-blue {
+  @apply bg-blue-500 hover:bg-blue-400 text-gray-50;
+}
