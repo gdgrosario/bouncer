@@ -7,7 +7,7 @@
       mx-auto
     "
   >
-    <h1 class="text-3xl font-bold text-gray-900">
+    <h1 class="text-3xl font-bold text-gray-900 mb-3">
       {{ text }}
       <router-link class="xs:underline md:no-underline" to="/"
         >Bouncer</router-link
