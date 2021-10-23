@@ -1,3 +1,3 @@
 <template>
-  <router-view />
+  <h1>Sign In</h1>
 </template>
