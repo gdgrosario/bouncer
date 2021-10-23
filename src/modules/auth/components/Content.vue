@@ -10,7 +10,7 @@
     <h1 class="text-3xl font-bold text-gray-900">
       {{ text }}
       <router-link class="xs:underline md:no-underline" to="/"
-        >Thullo</router-link
+        >Bouncer</router-link
       >
     </h1>
 
