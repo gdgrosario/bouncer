@@ -41,7 +41,7 @@ export default {
     );
 
     const color = computed(() =>
-      path === "/auth/sign-in" ? "bg-blue-100" : "bg-pink-100"
+      path === "/auth/sign-in" ? "bg-purple-50" : "bg-red-50"
     );
 
     return { text, sign, color };
