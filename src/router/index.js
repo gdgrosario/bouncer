@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "@/modules/home/router";
 import Auth from "@/modules/auth/router";
 import Profile from "@/modules/profile/router";
+import Car from "@/modules/car/router";
+import ProductView from "@/modules/productView/router";
 
 const routes = [
   {
@@ -15,6 +17,14 @@ const routes = [
   {
     path: "/profile",
     ...Profile,
+  },
+  {
+    path: "/car",
+    ...Car,
+  },
+  {
+    path: "/productView",
+    ...ProductView,
   },
 ];
 

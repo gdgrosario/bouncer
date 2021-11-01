@@ -7,11 +7,9 @@ export default {
   children: [
     {
       path: "",
-      name: "index-home",
+      name: "Home",
       component: () =>
-        import(
-          /* webpackChunkName: "index-home" */ "@/modules/home/views/Index.vue"
-        ),
+        import(/* webpackChunkName: "Home" */ "@/modules/home/views/Home.vue"),
     },
   ],
 };
