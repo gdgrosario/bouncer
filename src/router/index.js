@@ -22,7 +22,13 @@ const routes = [
     name: "team",
     path: "/team",
     component: () =>
-      import(/* webpackChunkName: "team" */ "@/global/team/Team.vue"),
+      import(/* webpackChunkName: "team" */ "@/global/views/team/Team.vue"),
+  },
+  {
+    name: "Error",
+    path: "/:pathMatch(.*)*",
+    component: () =>
+      import(/* webpackChunkName: "error" */ "@/global/views/error/Error.vue"),
   },
   {
     path: "/car",
