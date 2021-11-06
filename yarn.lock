@@ -1010,6 +1010,18 @@
   resolved "https://registry.yarnpkg.com/@soda/get-current-script/-/get-current-script-1.0.2.tgz#a53515db25d8038374381b73af20bb4f2e508d87"
   integrity sha512-T7VNNlYVM1SgQ+VsMYhnDkcGmWhQdL0bDyGm5TlQ3GBXnJscEClUUOKduWTmm2zCnvNLC1hc3JpuXjs/nFOc5w==
 
+"@splidejs/splide@^3.2.2":
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/@splidejs/splide/-/splide-3.2.5.tgz#0e626ac23f7eae4a7a46ace065ce5e9394cc0c3a"
+  integrity sha512-V54jDr6M6tB3EzuzRzSliUs80npqWKWWu5s/AK9tiZ09M6sDkuTl7coufM7yJiMEUcuuKHGIV8pwYBfJfujn8Q==
+
+"@splidejs/vue-splide@^0.5.4":
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/@splidejs/vue-splide/-/vue-splide-0.5.5.tgz#0e3ad59e55de10da3a41f5987d296df4a5c9c689"
+  integrity sha512-bCSB17rJeAG4t55pnFrA6N6XYlR9nDcUYUaQqy6ssAq0S7aB2VkhEPwcS4ncituGMtfzV2BYPTpH3X29ATCnNg==
+  dependencies:
+    "@splidejs/splide" "^3.2.2"
+
 "@tailwindcss/postcss7-compat@^2.0.2", "tailwindcss@npm:@tailwindcss/postcss7-compat@^2.0.2":
   version "2.2.17"
   resolved "https://registry.yarnpkg.com/@tailwindcss/postcss7-compat/-/postcss7-compat-2.2.17.tgz#dc78f3880a2af84163150ff426a39e42b9ae8922"
