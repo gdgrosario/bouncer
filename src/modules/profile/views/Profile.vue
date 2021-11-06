@@ -2,7 +2,14 @@
   <section class="container mx-auto mt-5">
     <Title />
     <article class="md:border-2 xs:w-full md:w-5/6 mx-auto mb-10 rounded-sm">
-      <Subtitle />
+      <Subtitle
+        :info="{
+          title: 'Profile',
+          description: 'Some info may be visible to other people',
+          validationPur: true,
+          validationEdit: true,
+        }"
+      />
       <div>
         <DataUser />
       </div>
