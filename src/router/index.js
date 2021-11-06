@@ -19,6 +19,12 @@ const routes = [
     ...Profile,
   },
   {
+    name: "team",
+    path: "/team",
+    component: () =>
+      import(/* webpackChunkName: "team" */ "@/global/team/Team.vue"),
+  },
+  {
     path: "/car",
     ...Car,
   },
