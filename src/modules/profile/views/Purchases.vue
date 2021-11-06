@@ -9,13 +9,15 @@
     <article class="md:border-2 xs:w-full md:w-5/6 mx-auto mb-10 rounded-sm">
       <Subtitle
         :info="{
-          title: 'Change Info',
+          title: 'My Purchases',
           description: 'Changes will be reflected to every services',
           validationPur: false,
           validationEdit: false,
         }"
       />
-      <FormEditUser />
+      <div>
+        <MyPurchases />
+      </div>
     </article>
   </section>
 </template>
@@ -24,13 +26,13 @@
 import { mdiArrowLeft } from "@mdi/js";
 import Icon from "@jamescoyle/vue-icon";
 import Subtitle from "../components/Subtitle.vue";
-import FormEditUser from "../components/form/FormEditUser.vue";
+import MyPurchases from "../components/MyPurchases.vue";
 
 export default {
   components: {
     Subtitle,
+    MyPurchases,
     Icon,
-    FormEditUser,
   },
   data() {
     return {

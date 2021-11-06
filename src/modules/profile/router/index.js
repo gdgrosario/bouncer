@@ -21,5 +21,13 @@ export default {
           /* webpackChunkName: "profile-edit" */ "@/modules/profile/views/Edit.vue"
         ),
     },
+    {
+      path: "my-purchases",
+      name: "profile-purchases",
+      component: () =>
+        import(
+          /* webpackChunkName: "profile-purchases" */ "@/modules/profile/views/Purchases.vue"
+        ),
+    },
   ],
 };
